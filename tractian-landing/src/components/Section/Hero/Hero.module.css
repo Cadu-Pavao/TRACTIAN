@@ -1,0 +1,17 @@
+.heroWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem 0;
+  padding: 0 12.5rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 540px;
+}
+
+.textHighlight {
+  color: var(--primary-color);
+}

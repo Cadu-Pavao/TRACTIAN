@@ -1,0 +1,12 @@
+.wrapper {
+  width: 100vw;
+  margin: 2rem 0;
+  margin-left: -2rem;
+  background-color: var(--background-dark);
+  padding: 3rem;
+  color: var(--font-white);
+}
+
+.wrapper img {
+  min-width: 300px;
+}

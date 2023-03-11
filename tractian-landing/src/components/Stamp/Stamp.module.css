@@ -1,0 +1,25 @@
+.stamp {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.star {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.letter {
+  animation: wheel 6s linear infinite;
+}
+
+@keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
