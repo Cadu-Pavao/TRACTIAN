@@ -10,7 +10,7 @@ export function Hero() {
           <p>Startup que mais cresce na América-Latina</p>
           <h1>
             Monitoramento online e Gestão de Ativos em{" "}
-            <span className={styles.textHighlight}>um só lugar</span>
+            <span className={styles.textHighlight}>um só lugar.</span>
           </h1>
           <p>
             O futuro é agora! Evite falhas em sua máquinas e deixe o tempo de

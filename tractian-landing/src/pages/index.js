@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { Hero } from "@/components/Section/Hero/Hero";
 import { Navbar } from "@/components/UI/Navbar/Navbar";
+import { MarqueeSection } from "@/components/Section/Marquee/MarqueeSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <Hero />
+        <MarqueeSection />
       </main>
     </>
   );
