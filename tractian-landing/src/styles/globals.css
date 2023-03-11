@@ -17,6 +17,8 @@
 
   --divider-color: #e1e1e1;
 
+  --outline-primary: rgba(36, 110, 238, 0.3);
+
   --alert-danger: #f42449;
   --alert-warning: #f3b91a;
   --alert-sucess: #24ce5d;
@@ -56,6 +58,10 @@ h6 {
   color: var(--font-title);
   font-family: "Raleway";
   font-weight: 900;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 p {
