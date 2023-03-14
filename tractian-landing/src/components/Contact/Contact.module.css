@@ -1,0 +1,49 @@
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contactWrapper span {
+  color: var(--font-white);
+}
+
+.form {
+  display: flex;
+  border: 2px solid var(--divider-dark);
+  border-radius: 4px;
+}
+
+.formInput,
+.formButton {
+  height: 48px;
+  padding: 0 1rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-family: "Raleway";
+}
+
+.formInput {
+  min-width: 200px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 4px 0 0 4px;
+}
+
+.formButton {
+  color: var(--font-white);
+  background: var(--primary-color);
+  border-radius: 0 4px 4px 0;
+}
+
+.formInput:hover {
+  background-color: var(--primary-hover);
+  cursor: pointer;
+}
+
+.formInput:active,
+.formInput:focus {
+  background-color: var(--primary-click);
+  outline: 3px solid var(--outline-primary);
+}
