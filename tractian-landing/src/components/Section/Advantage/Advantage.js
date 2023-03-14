@@ -1,4 +1,4 @@
-import { Card } from "@/components/UI/Card/card";
+import { Card } from "@/components/UI/Card/Card";
 import styles from "./Advantage.module.css";
 import { speed, trust, easy } from "@/assets/icons";
 
