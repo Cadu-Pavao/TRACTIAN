@@ -101,7 +101,3 @@
     object-fit: cover;
   }
 }
-
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1366px) {
-}

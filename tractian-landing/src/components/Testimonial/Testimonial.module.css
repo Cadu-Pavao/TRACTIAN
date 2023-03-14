@@ -3,6 +3,11 @@
   background-color: var(--background-light);
 }
 
+.carousel h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
 .carouselItem {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,7 +107,7 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 701px) and (max-width: 1366px) {
   .carousel {
     padding: 4rem 2rem;
   }

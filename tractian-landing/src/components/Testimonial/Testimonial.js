@@ -50,6 +50,7 @@ export function Testimonial() {
 
   return (
     <div className={styles.carousel}>
+      <h2>O que falam sobre nós?</h2>
       <div className={styles.carouselItem}>
         <div className={styles.image}>
           <Image
