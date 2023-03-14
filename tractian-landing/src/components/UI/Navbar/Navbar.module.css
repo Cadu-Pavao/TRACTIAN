@@ -1,4 +1,19 @@
 .wrapper {
   display: flex;
-  padding: 1rem 12.5rem;
+  padding: 2rem 12.5rem;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .wrapper {
+    padding: 2rem;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1366px) {
+  .wrapper {
+    margin: 2rem;
+    padding: 2rem;
+  }
 }

@@ -3,6 +3,10 @@ import styles from "@/styles/Home.module.css";
 import { Hero } from "@/components/Section/Hero/Hero";
 import { Navbar } from "@/components/UI/Navbar/Navbar";
 import { MarqueeSection } from "@/components/Section/Marquee/MarqueeSection";
+import { About } from "@/components/Section/About/About";
+import { Advantage } from "@/components/Section/Advantage/Advantage";
+import { Testimonial } from "@/components/Testimonial/Testimonial";
+import { Footer } from "@/components/UI/Footer/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +21,10 @@ export default function Home() {
         <Navbar />
         <Hero />
         <MarqueeSection />
+        <About />
+        <Advantage />
+        <Testimonial />
+        <Footer />
       </main>
     </>
   );

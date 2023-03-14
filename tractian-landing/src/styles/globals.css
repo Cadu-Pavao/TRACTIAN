@@ -4,27 +4,36 @@
   --primary-color: #246eee;
   --primary-hover: #3e88f7;
   --primary-click: #1654be;
-  --secondary-color: #24ce5d;
+  --secondary-color: #22c55e;
+  --secondary-hover: #2cd469;
+  --secondary-click: #22aa54;
 
   --background-light: #fcfdff;
+  --background-light-2: #adc6f1;
+  --background-light-3: #eff6ff;
   --background-dark: #222222;
+  --background-dark-2: #000f27;
   --background-glass: rgba(250, 251, 253, 0.8);
   --glass-blur: blur(5.6432px);
 
   --font-title: #02051e;
   --font-subtitle: #828282;
   --font-body: #828282;
+  --font-body-dark: #cfcfcf;
   --font-white: #ffffff;
 
   --divider-color: #e1e1e1;
+  --divider-dark: #26313f;
 
   --outline-primary: rgba(36, 110, 238, 0.3);
+  --outline-secondary: rgba(34, 197, 94, 0.3);
 
   --alert-danger: #f42449;
   --alert-warning: #f3b91a;
   --alert-sucess: #24ce5d;
 
   --gradient-primary: linear-gradient(180deg, #2563ea 0%, #1f93ff 100%);
+  --gradient-blue: linear-gradient(73.71deg, #0b4bc9 0%, #2185f9 100%);
   --gradient-black: radial-gradient(
     77.58% 23.38% at 50% 50%,
     #07070a 0%,
@@ -38,6 +47,7 @@
 }
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -47,7 +57,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: var(--background-light);
+  background: var(--gradient-blue);
 }
 
 h1,
@@ -64,8 +74,18 @@ h6 {
 h1 {
   font-size: 3rem;
 }
+h2 {
+  font-size: 2rem;
+}
 
 p {
+  color: var(--font-body);
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+span {
   color: var(--font-body);
   font-family: "Raleway";
   font-weight: 400;
@@ -82,4 +102,22 @@ a {
 
 a:hover {
   color: var(--primary-hover);
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p,
+  span {
+    font-size: 1rem;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
 }
