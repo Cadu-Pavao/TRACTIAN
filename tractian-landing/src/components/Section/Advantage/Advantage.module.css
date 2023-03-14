@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 12.5rem;
+  background-color: var(--background-light-3);
+}
+
+.wrapper h2,
+.wrapper p,
+.wrapper span {
+  margin: 0.5rem 0;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .wrapper {
+    padding: 2rem 1rem;
+    border-radius: 0;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}

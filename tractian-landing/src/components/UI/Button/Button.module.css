@@ -21,3 +21,23 @@
   background-color: var(--primary-click);
   outline: 3px solid var(--outline-primary);
 }
+
+.sm {
+  min-width: 0;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+}
+
+.green {
+  background-color: var(--secondary-color);
+}
+
+.green:hover {
+  background-color: var(--secondary-hover);
+  cursor: pointer;
+}
+
+.green:active {
+  background-color: var(--secondary-click);
+  outline: 3px solid var(--outline-secondary);
+}
