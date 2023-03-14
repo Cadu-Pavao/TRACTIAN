@@ -1,3 +1,8 @@
+.wrapper {
+  position: relative;
+  display: flex;
+}
+
 .alert {
   position: absolute;
   z-index: 5;
@@ -34,7 +39,7 @@
   width: 250px;
   height: 600px;
   border-radius: 125px;
-  border: 12px solid #2185f9;
+  border: 12px solid var(--font-white);
   z-index: 0;
 }
 
@@ -42,7 +47,54 @@
   z-index: 2;
 }
 
-.wrapper {
-  position: relative;
-  display: flex;
+/* Mobile */
+@media (max-width: 700px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1366px) {
+  .wrapper {
+    margin: 7rem 0;
+  }
+  .alert {
+    position: absolute;
+    z-index: 5;
+    left: -25%;
+    top: -20%;
+  }
+
+  .alertRight {
+    position: absolute;
+    z-index: 5;
+    left: 40%;
+    bottom: -10%;
+  }
+
+  .cylinder {
+    right: 50%;
+    top: -15%;
+    width: 200px;
+    height: 500px;
+    border-radius: 100px;
+  }
+
+  .cylinderOutlined {
+    position: absolute;
+    right: 35%;
+    top: 10%;
+    width: 200px;
+    height: 400px;
+    border-radius: 125px;
+    border: 12px solid var(--font-white);
+    z-index: 0;
+  }
+
+  .sensorImage {
+    width: 300px;
+    height: auto;
+    z-index: 2;
+  }
 }

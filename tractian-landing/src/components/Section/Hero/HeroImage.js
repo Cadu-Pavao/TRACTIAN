@@ -31,7 +31,7 @@ export function HeroImage() {
         priority
         className={styles.sensorImage}
       />
-      <Stamp className={styles.alert} />
+      <Stamp className={styles.stamp} />
     </div>
   );
 }
