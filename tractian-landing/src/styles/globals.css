@@ -5,7 +5,7 @@
   --primary-hover: #3e88f7;
   --primary-click: #1654be;
   --secondary-color: #22c55e;
-  --secondary-hover: #2cd469;
+  --secondary-hover: #3db167;
   --secondary-click: #22aa54;
 
   --background-light: #fcfdff;
@@ -17,8 +17,8 @@
   --glass-blur: blur(5.6432px);
 
   --font-title: #02051e;
-  --font-subtitle: #828282;
-  --font-body: #828282;
+  --font-subtitle: #646464;
+  --font-body: #646464;
   --font-body-dark: #cfcfcf;
   --font-white: #ffffff;
 

@@ -49,7 +49,11 @@ export function Footer() {
         <Contact />
         <ul>
           <li>
-            <a href="https://www.facebook.com/tractian" target={"_blank"}>
+            <a
+              href="https://www.facebook.com/tractian"
+              target={"_blank"}
+              aria-label="Link para rede social Facebook"
+            >
               <Image src={facebook} alt="" />
             </a>
           </li>
@@ -57,22 +61,35 @@ export function Footer() {
             <a
               href="https://www.linkedin.com/company/tractian/"
               target={"_blank"}
+              aria-label="Link para rede social Linkedin"
             >
               <Image src={linkedin} alt="" />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/tractian/" target={"_blank"}>
+            <a
+              href="https://www.instagram.com/tractian/"
+              target={"_blank"}
+              aria-label="Link para rede social Instagram"
+            >
               <Image src={instagram} alt="" />
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/c/TRACTIAN" target={"_blank"}>
+            <a
+              href="https://www.youtube.com/c/TRACTIAN"
+              target={"_blank"}
+              aria-label="Link para rede social youtube"
+            >
               <Image src={youtube} alt="" />
             </a>
           </li>
           <li>
-            <a href="https://www.tiktok.com/@tractian" target={"_blank"}>
+            <a
+              href="https://www.tiktok.com/@tractian"
+              target={"_blank"}
+              aria-label="Link para rede social tiktok"
+            >
               <Image src={tiktok} alt="" />
             </a>
           </li>
