@@ -1,5 +1,7 @@
 .wrapper {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -24,6 +26,12 @@
   width: 290px;
   height: 780px;
   border-radius: 145px;
+  background: -o-radial-gradient(
+    50% 50%,
+    77.58% 23.38%,
+    #07070a 0%,
+    #2b2c33 100%
+  );
   background: radial-gradient(
     77.58% 23.38% at 50% 50%,
     #07070a 0%,

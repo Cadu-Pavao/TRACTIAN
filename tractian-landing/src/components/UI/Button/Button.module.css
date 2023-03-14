@@ -1,4 +1,6 @@
 .primary {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   min-width: 200px;
   padding: 0.75rem 3rem;

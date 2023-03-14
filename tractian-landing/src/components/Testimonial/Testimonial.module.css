@@ -4,6 +4,8 @@
 }
 
 .carouselItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 2rem;
   background-color: var(--background-dark-2);
@@ -12,8 +14,15 @@
 
 .contentWrapper {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -36,6 +45,7 @@
 .image img {
   width: 400px;
   height: 500px;
+  -o-object-fit: cover;
   object-fit: cover;
   mix-blend-mode: luminosity;
   border-radius: 10px 0 0 10px;
@@ -49,9 +59,13 @@
 }
 
 .controller {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 4rem;
   padding-top: 2rem;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
   border-top: 1px solid var(--divider-dark);
 }
@@ -67,6 +81,9 @@
   }
 
   .carouselItem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
