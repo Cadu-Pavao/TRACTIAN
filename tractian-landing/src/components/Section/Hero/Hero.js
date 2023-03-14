@@ -19,7 +19,9 @@ export function Hero() {
             inatividade no passado com o melhor sistema preditivo do mercado.
           </p>
 
-          <Button green>Demonstração</Button>
+          <Button link={"https://tractian.com"} green>
+            Demonstração
+          </Button>
         </div>
         <HeroImage />
       </div>
